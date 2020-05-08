@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import LeftAside from '../common/LeftAside.js'
-import RightAside from './RightAside.js'
+import RightAside from './BaseRightAside.js'
 
 class App extends Component {
   render() {
