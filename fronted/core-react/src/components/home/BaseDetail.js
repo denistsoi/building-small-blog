@@ -35,7 +35,7 @@ class App extends Component {
     return (
 
       	<div>
-				
+				<h1>Hello</h1>
     			<h1 class="mb-3">{response.title}</h1>
 	              <img src="assets/images/image_2.jpg" alt="" class="img-fluid"/>
 	           <p> {response.description} </p>

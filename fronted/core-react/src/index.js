@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-import Base from './components/common/App.js';
-import BaseDetail from './components/home/App.js';
+import Base from './components/home/BaseApp.js';
+import BaseDetail from './components/home/BaseDetailApp.js';
 
 import NotFound from './components/exception/404.js';
 
