@@ -13,12 +13,6 @@ class CategorySerializer(serializers.ModelSerializer):
     blog_set = BlogSerializer(many=True)
     class Meta:
         model = Category
-        fields = [
-        	'id',
-        	'title',
-        	'slug',
-        	'image',
-        	'blog_set'
-        ]
+        fields = "__all__"
 
 

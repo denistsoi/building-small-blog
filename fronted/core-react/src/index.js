@@ -13,9 +13,8 @@ ReactDOM.render(
   <BrowserRouter>
   <Switch>
 
-
   <Route exact path="/" component={Base}/>
-  <Route path="/basedetail" component={BaseDetail}/>
+  <Route path="/basedetail/:slug" component={BaseDetail}/>
   <Route path="*" component={NotFound} status={404} />
 
   </Switch>
