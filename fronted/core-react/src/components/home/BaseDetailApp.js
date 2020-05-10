@@ -2,15 +2,11 @@ import React, { Component } from "react";
 import LeftAside from "../common/LeftAside.js";
 import RightAside from "./BaseRightAside.js";
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <LeftAside></LeftAside>
-        <RightAside></RightAside>
-      </div>
-    );
-  }
-}
+const App = (props) => (
+  <div>
+    <LeftAside></LeftAside>
+    <RightAside {...props}></RightAside>
+  </div>
+);
 
 export default App;
